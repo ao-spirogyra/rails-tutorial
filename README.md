@@ -31,7 +31,10 @@ $ rails db:migrate
 ```
 $ rails test
 ```
-
+以下のコマンドでtestを自動で実行できるようにします
+```
+$ bundle exec guard
+```
 テストが無事に通ったら、Railsサーバーを立ち上げる準備が整っているはずです。
 
 ```
